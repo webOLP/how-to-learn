@@ -77,7 +77,7 @@
   display: flex;
   min-height: 260px;
   border: 1px solid red;
-  padding:100px 0;
+  padding:100px 0 0 0;
 }
 
 .two-columns{
@@ -85,7 +85,7 @@
   width: 80%;
   margin:0 auto;
   justify-content: space-between;
-  border: 1px solid red;
+  
 }
 
 .two-columns__brief {
@@ -103,14 +103,14 @@
   
   min-width: 784px;
   flex-direction: column;
-  border: 1px solid red;
+  
 }
 
 .two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
   margin: 0 0 30px 0;
-  border: 1px solid red;
+  
   
 }
 
@@ -119,4 +119,71 @@
 }
 .two-columns__span-accent {
  font-weight: bold;
+}
+
+.digits {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 0;
+  align-items: center;
+
+}
+
+.section-title {
+  
+  width: 60%;
+  margin: 0;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+
+
+.section-subtitle {
+  
+  width: 60%;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  margin: 20px 0 0 0;
+}
+
+.table {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.table__cell {
+  width: 200px;
+}
+
+.table__cell_place_digits {
+  
+  width: 250px;
+  margin: 60px 0 0 0;
+  
+}
+
+.table__heading {
+  
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  
+  margin:20px 0 0 0;
+  line-height: 1.2;
+  font-size: 18px;
 }
