@@ -1,3 +1,14 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  
+  to {
+     transform: rotate(360deg);
+  }
+}
+
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -19,7 +30,7 @@
   background-color: #f2f2f2;
   
   position: relative;
- 
+  overflow: hidden;
 }
 
 .header__title {
@@ -69,6 +80,7 @@
   height: 568px;
   background-color: #2f80ed;
   z-index: 1;
+  
 }
 
 .logo {
@@ -84,6 +96,10 @@
   top: 30px;
   background-image: url(../images/logo_place_header.svg);
   
+}
+
+.rotation {
+  animation: rotation 20s infinite linear;
 }
 
 .description{
@@ -206,6 +222,114 @@
   height: 316px;
 }
 
+.oakley {
+  padding-top: 160px;
+  border: 1px black solid;
+  background-color:  #f2f2f2;
+}
+
+.khan {
+  border: 1px solid black;
+  
+  padding-top: 105px;
+  background-color:  #f2f2f2;
+
+}
+
+.khan__container {
+  
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.khan__author {
+  
+  display: inline-block;
+  margin: 0;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__title {
+  
+  margin: 0 0 50px;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.khan__quote {
+ 
+  display: inline-block;
+  width: 790px;
+  quotes: none;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__quote-author {
+ 
+  margin: 36px 0 10px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.khan__quote-author-subline {
+
+  margin: 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__book-container {
+  display: flex;
+  flex-direction: row;
+  
+  margin: 68px 0 0;
+}
+
+.khan__book-pic {
+  
+  margin: 0 48px 0 0;
+  width: 620px;
+  height: 608px;
+  object-fit: cover;
+}
+
+.khan__buy-link {
+  
+  margin:0;
+  text-decoration: none;
+  color: #2f80ed;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.resources {
+  padding: 100px 0 217px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resources__logo-zone {
+  width: 1105px;
+  display: flex;
+  flex-direction: row;
+  margin: 80px 0 0;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+}
 
 .digits {
   
