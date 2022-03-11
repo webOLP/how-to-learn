@@ -1,5 +1,5 @@
 @import url(../vendor/normalize.css);
-@import url(../blocks/root/root.css);
+@import url(../blocks/page/page.css);
 
 
 
@@ -72,13 +72,8 @@
 @import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark\ .css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
-@import url(../blocks/table/__cell/_place/table__cell_place_digits.css);
-@import url(../blocks/table/__cell/_theme/table__cell_theme_kaufman.css);
+@import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
-
-/*marker-remover*/
-@import url(../blocks/marker-remover/marker-remover.css);
 
 /* rotation and link-hover */
 @import url(../blocks/rotation/rotation.css);
-@import url(../blocks/link-hover/link-hover.css);
